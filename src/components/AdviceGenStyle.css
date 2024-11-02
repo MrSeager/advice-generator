@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css?family=Manrope:800&display=swap');
+
+body {
+    font-family: 'Manrope', sans-serif !important;
+}
+
+.cs-w {
+    width: 45% !important;
+}
+
+.cs-position {
+    position: relative;
+}
+
+/*Background*/
+.cs-bg-dark-blue {
+    background-color: hsl(218, 23%, 16%) !important;
+}
+
+.cs-bg-dark-grayish-blue {
+    background-color: hsl(217, 19%, 24%) !important;
+}
+
+/*Font*/
+.cs-tc-green {
+    color: hsl(150, 100%, 66%) !important;
+}
+
+.cs-tc-cyan {
+    color: hsl(193, 38%, 86%) !important;
+}
+
+.cs-ls {
+    letter-spacing: 1vh !important;
+}
+
+/*Buttons*/
+.cs-btn {
+    position: absolute;
+    bottom: -9vh;
+    transition: .5s !important;
+    transform: translateY(-50%);
+    background-color:  hsl(150, 100%, 66%) !important;
+}
+
+.cs-btn:hover {
+    box-shadow: hsl(150, 100%, 66%) 0px 0px 25px;
+}
+
+@media (max-width: 991px) {
+    .cs-w {
+        width: 100% !important;
+    }
+
+    .cs-img {
+        content: url('../images/pattern-divider-mobile.svg');
+    }
+}
