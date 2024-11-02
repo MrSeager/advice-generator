@@ -37,7 +37,7 @@ body {
 /*Buttons*/
 .cs-btn {
     position: absolute;
-    bottom: -9vh;
+    bottom: -55px;
     transition: .5s !important;
     transform: translateY(-50%);
     background-color:  hsl(150, 100%, 66%) !important;

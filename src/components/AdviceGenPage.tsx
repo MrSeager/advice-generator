@@ -48,7 +48,7 @@ const AdviceGenPage: FC = () => {
             {transitions((style, item) => (
                 item.id !== null && (
                     <animated.div style={style} key={item.key} className='cs-w'>
-                        <Container fluid className='cs-position text-white cs-bg-dark-grayish-blue d-flex flex-column align-items-center justify-content-between text-center py-5 px-4 rounded rounded-4 gap-3'>
+                        <Container fluid className='cs-position text-white cs-bg-dark-grayish-blue d-flex flex-column align-items-center justify-content-between text-center py-5 px-4 rounded rounded-4 gap-3 my-5'>
                             <h1 className='cs-ls cs-tc-green h6 mb-4 text-uppercase'>Advice #{item.id}</h1>
                             <p className='cs-tc-cyan fs-3'>“{item.text}”</p>
                             <Image fluid src={DivImg} alt='divider' className='w-100 mb-3 cs-img' />
